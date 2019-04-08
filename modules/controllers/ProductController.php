@@ -14,9 +14,11 @@ class ProductController extends CommonController
     public function actionList()
     {
         $model = Product::find();
+
         $count = $model->count();
         $pageSize = Yii::$app->params['pageSize']['product'];
         $pager = new Pagination(['totalCount' => $count, 'pageSize' => $pageSize]);
+
         $products = $model->offset($pager->offset)->limit($pager->limit)->all();
         $this->layout = "layout1";
         return $this->render("products", ['pager' => $pager, 'products' => $products]);

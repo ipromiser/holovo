@@ -12,26 +12,26 @@
 
 	    <title>慕课商城</title>
 	    <!-- Bootstrap Core CSS -->
-	    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="/holovo/web/assets/css/bootstrap.min.css">
 
 	    <!-- Customizable CSS -->
-	    <link rel="stylesheet" href="/assets/css/main.css">
-	    <link rel="stylesheet" href="/assets/css/red.css">
-	    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
-		<link rel="stylesheet" href="/assets/css/owl.transitions.css">
-		<link rel="stylesheet" href="/assets/css/animate.min.css">
+	    <link rel="stylesheet" href="/holovo/web/assets/css/main.css">
+	    <link rel="stylesheet" href="/holovo/web/assets/css/red.css">
+	    <link rel="stylesheet" href="/holovo/web/assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="/holovo/web/assets/css/owl.transitions.css">
+		<link rel="stylesheet" href="/holovo/web/assets/css/animate.min.css">
 
         
         <!-- Icons/Glyphs -->
-		<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/holovo/web/assets/css/font-awesome.min.css">
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/assets/images/favicon.ico">
+		<link rel="shortcut icon" href="/holovo/web/assets/images/favicon.ico">
 
 		<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
 		<!--[if lt IE 9]>
-			<script src="/assets/js/html5shiv.js"></script>
-			<script src="/assets/js/respond.min.js"></script>
+			<script src="/holovo/web/assets/js/html5shiv.js"></script>
+			<script src="/holovo/web/assets/js/respond.min.js"></script>
 		<![endif]-->
 
  
@@ -72,7 +72,7 @@
 			<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
 <a href="<?php echo yii\helpers\Url::to(['index/index']) ?>">
-		<img alt="logo" src="/assets/images/logo.PNG" width="233" height="54"/>
+		<img alt="logo" src="/holovo/web/assets/images/logo.PNG" width="233" height="54"/>
 	</a>
 </div><!-- /.logo -->
 <!-- ============================================================= LOGO : END ============================================================= -->		</div><!-- /.logo-holder -->
@@ -125,7 +125,7 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <div class="basket-item-count">
                 <span class="count"><?php echo count($this->params['cart']['products']) ?></span>
-                    <img src="/assets/images/icon-cart.png" alt="" />
+                    <img src="/holovo/web/assets/images/icon-cart.png" alt="" />
                 </div>
 
                 <div class="total-price-basket"> 
@@ -291,7 +291,7 @@
                 <!-- ============================================================= CONTACT INFO ============================================================= -->
 <div class="contact-info">
     <div class="footer-logo">
-		<img alt="logo" src="/assets/images/logo.PNG" width="233" height="54"/>
+		<img alt="logo" src="/holovo/web/assets/images/logo.PNG" width="233" height="54"/>
     </div><!-- /.footer-logo -->
     
     <p class="regular-bold"> 请通过电话，电子邮件随时联系我们</p>
@@ -365,10 +365,10 @@
             <div class="col-xs-12 col-sm-6 no-margin">
                 <div class="payment-methods ">
                     <ul>
-                        <li><img alt="" src="/assets/images/payments/payment-visa.png"></li>
-                        <li><img alt="" src="/assets/images/payments/payment-master.png"></li>
-                        <li><img alt="" src="/assets/images/payments/payment-paypal.png"></li>
-                        <li><img alt="" src="/assets/images/payments/payment-skrill.png"></li>
+                        <li><img alt="" src="/holovo/web/assets/images/payments/payment-visa.png"></li>
+                        <li><img alt="" src="/holovo/web/assets/images/payments/payment-master.png"></li>
+                        <li><img alt="" src="/holovo/web/assets/images/payments/payment-paypal.png"></li>
+                        <li><img alt="" src="/holovo/web/assets/images/payments/payment-skrill.png"></li>
                     </ul>
                 </div><!-- /.payment-methods -->
             </div>
@@ -379,21 +379,21 @@
 <!-- ============================================================= FOOTER : END ============================================================= -->	</div><!-- /.wrapper -->
 
 	<!-- JavaScripts placed at the end of the document so the pages load faster -->
-	<script src="/assets/js/jquery-1.10.2.min.js"></script>
-	<script src="/assets/js/jquery-migrate-1.2.1.js"></script>
-	<script src="/assets/js/bootstrap.min.js"></script>
-	<script src="/assets/js/gmap3.min.js"></script>
-	<script src="/assets/js/bootstrap-hover-dropdown.min.js"></script>
-	<script src="/assets/js/owl.carousel.min.js"></script>
-	<script src="/assets/js/css_browser_selector.min.js"></script>
-	<script src="/assets/js/echo.min.js"></script>
-	<script src="/assets/js/jquery.easing-1.3.min.js"></script>
-	<script src="/assets/js/bootstrap-slider.min.js"></script>
-    <script src="/assets/js/jquery.raty.min.js"></script>
-    <script src="/assets/js/jquery.prettyPhoto.min.js"></script>
-    <script src="/assets/js/jquery.customSelect.min.js"></script>
-    <script src="/assets/js/wow.min.js"></script>
-	<script src="/assets/js/scripts.js"></script>
+	<script src="/holovo/web/assets/js/jquery-1.10.2.min.js"></script>
+	<script src="/holovo/web/assets/js/jquery-migrate-1.2.1.js"></script>
+	<script src="/holovo/web/assets/js/bootstrap.min.js"></script>
+	<script src="/holovo/web/assets/js/gmap3.min.js"></script>
+	<script src="/holovo/web/assets/js/bootstrap-hover-dropdown.min.js"></script>
+	<script src="/holovo/web/assets/js/owl.carousel.min.js"></script>
+	<script src="/holovo/web/assets/js/css_browser_selector.min.js"></script>
+	<script src="/holovo/web/assets/js/echo.min.js"></script>
+	<script src="/holovo/web/assets/js/jquery.easing-1.3.min.js"></script>
+	<script src="/holovo/web/assets/js/bootstrap-slider.min.js"></script>
+    <script src="/holovo/web/assets/js/jquery.raty.min.js"></script>
+    <script src="/holovo/web/assets/js/jquery.prettyPhoto.min.js"></script>
+    <script src="/holovo/web/assets/js/jquery.customSelect.min.js"></script>
+    <script src="/holovo/web/assets/js/wow.min.js"></script>
+	<script src="/holovo/web/assets/js/scripts.js"></script>
     <script>
         $("#createlink").click(function(){
             $(".billing-address").slideDown();

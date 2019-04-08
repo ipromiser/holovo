@@ -70,10 +70,10 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
-        'allowedIPs' => ['127.0.0.1'],
+        'allowedIPs' => ['127.0.0.1'],//允许访问ip
     ];
     $config['modules']['admin'] = [
-        'class' => 'app\modules\admin',
+        'class' => 'app\modules\admin',//配置后台入口
     ];
 }
 
